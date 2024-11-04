@@ -1,0 +1,69 @@
+@media screen and (max-width: 992px) {
+  /* nav-bar */
+  .nav-bar a {
+    padding: 20px;
+    padding-bottom: 0;
+  }
+
+  /* .nav-bar {
+    padding-bottom: 20px;
+  } */
+
+  .img-avt {
+    display: none;
+    width: 0;
+    height: auto;
+  }
+
+  .nav-a {
+    flex-basis: auto;
+    padding-left: 20px;
+  }
+
+  /* target - info */
+  .target {
+    padding: 30px 30px 30px 50px;
+  }
+
+  /* Kinh nghiệm - kỹ năng */
+  .exp-skill {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* chứng chỉ */
+  .certificate-img {
+    display: block;
+    width: 100%;
+  }
+
+  .certificate-section1 {
+    padding-right: 20px;
+  }
+
+  .certificate-section2 {
+    padding-left: 20px;
+  }
+
+  .certificate-section3 {
+    padding-right: 20px;
+  }
+
+  /* project */
+  table,
+  .project-description {
+    font-size: 10px;
+  }
+
+  .project-title {
+    font-size: 12px;
+  }
+
+  /* digital-cv */
+  .grid {
+    display: block;
+  }
+
+  .flex {
+    display: block;
+  }
+}

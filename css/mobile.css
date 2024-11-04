@@ -1,0 +1,63 @@
+.nav-bar {
+  flex-direction: column;
+  height: auto;
+}
+
+.nava3 {
+  display: none;
+}
+.nav-bar a {
+  text-align: start;
+  text-decoration: none;
+}
+
+.nav-bar {
+  padding-bottom: 20px;
+}
+
+.nav-a {
+  flex-basis: auto;
+  padding-left: 20px;
+}
+
+/* target - info */
+.target,
+.info {
+  padding: 15px;
+}
+
+.target-info {
+  display: grid;
+  grid-template-columns: 1fr;
+  line-height: 1.8;
+}
+
+/* Kinh nghiệm - kỹ năng */
+.exp-skill {
+  grid-template-columns: 1fr;
+}
+
+/* chứng chỉ */
+.certificate-section1,
+.certificate-section2,
+.certificate-section3 {
+  width: 100%;
+}
+
+.certificate-section1 {
+  border: 0;
+}
+
+.certificate-section2 {
+  padding-left: 0;
+  padding-right: 20px;
+}
+/* footer */
+.contact {
+  margin-top: 0;
+  gap: 20px;
+}
+.contact p {
+  display: none;
+}
+/* project charter */
